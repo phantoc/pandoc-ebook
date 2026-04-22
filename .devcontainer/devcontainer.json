@@ -15,7 +15,7 @@
 	},
 
 	// Use 'postCreateCommand' to run commands after the container is created.
-	// "postCreateCommand": "make all",
+	"postCreateCommand": "make all",
 
 	// Comment out to connect as root instead. Better to use 'vscode' user.
 	"remoteUser": "vscode"

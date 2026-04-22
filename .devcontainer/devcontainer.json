@@ -1,0 +1,22 @@
+{
+	"name": "Pandoc eBook Environment",
+	"build": {
+		"dockerfile": "Dockerfile"
+	},
+
+	// Configure tool-specific properties.
+	"customizations": {
+		"vscode": {
+			"extensions": [
+				"yzhang.markdown-all-in-one",
+				"James-Yu.latex-workshop"
+			]
+		}
+	},
+
+	// Use 'postCreateCommand' to run commands after the container is created.
+	// "postCreateCommand": "make all",
+
+	// Comment out to connect as root instead. Better to use 'vscode' user.
+	"remoteUser": "vscode"
+}

@@ -5,6 +5,9 @@ lang: en-GB
 identifier:
 - scheme: OCLC
   text: 38659585
+header-includes: |
+  \usepackage{makeidx}
+  \makeindex
 ---
 
 # Vol. I
@@ -15,13 +18,13 @@ It is a truth universally acknowledged, that a single man in possession of a goo
 
 However little known the feelings or views of such a man may be on his first entering a neighbourhood, this truth is so well fixed in the minds of the surrounding families, that he is considered as the rightful property of some one or other of their daughters.
 
-"My dear Mr. Bennet," said his lady to him one day, "have you heard that Netherfield Park is let at last?"
+"My dear Mr. Bennet\index{Bennet, Mr.}," said his lady to him one day, "have you heard that Netherfield Park is let at last?"
 
-Mr. Bennet replied that he had not.
+Mr. Bennet\index{Bennet, Mr.} replied that he had not.
 
-"But it is," returned she; "for Mrs. Long has just been here, and she told me all about it."
+"But it is," returned she; "for Mrs. Long\index{Long, Mrs.} has just been here, and she told me all about it."
 
-Mr. Bennet made no answer.
+Mr. Bennet\index{Bennet, Mr.} made no answer.
 
 "Do not you want to know who has taken it?" cried his wife impatiently.
 
@@ -29,11 +32,11 @@ Mr. Bennet made no answer.
 
 This was invitation enough.
 
-"Why, my dear, you must know, Mrs. Long says that Netherfield is taken by a young man of large fortune from the north of England; that he came down on Monday in a chaise and four to see the place, and was so much delighted with it that he agreed with Mr. Morris immediately; that he is to take possession before Michaelmas, and some of his servants are to be in the house by the end of next week."
+"Why, my dear, you must know, Mrs. Long\index{Long, Mrs.} says that Netherfield is taken by a young man of large fortune from the north of England; that he came down on Monday in a chaise and four to see the place, and was so much delighted with it that he agreed with Mr. Morris\index{Morris, Mr.} immediately; that he is to take possession before Michaelmas, and some of his servants are to be in the house by the end of next week."
 
 "What is his name?"
 
-"Bingley."
+"Bingley\index{Bingley, Mr. Charles}."
 
 "Is he married or single?"
 
@@ -41,31 +44,31 @@ This was invitation enough.
 
 "How so? how can it affect them?"
 
-"My dear Mr. Bennet," replied his wife, "how can you be so tiresome! You must know that I am thinking of his marrying one of them."
+"My dear Mr. Bennet\index{Bennet, Mr.}," replied his wife, "how can you be so tiresome! You must know that I am thinking of his marrying one of them."
 
 "Is that his design in settling here?"
 
 "Design! nonsense, how can you talk so! But it is very likely that he *may* fall in love with one of them, and therefore you must visit him as soon as he comes."
 
-"I see no occasion for that. You and the girls may go, or you may send them by themselves, which perhaps will be still better, for as you are as handsome as any of them, Mr. Bingley might like you the best of the party."
+"I see no occasion for that. You and the girls may go, or you may send them by themselves, which perhaps will be still better, for as you are as handsome as any of them, Mr. Bingley\index{Bingley, Mr. Charles} might like you the best of the party."
 
 "My dear, you flatter me. I certainly *have* had my share of beauty, but I do not pretend to be any thing extraordinary now. When a woman has five grown up daughters, she ought to give over thinking of her own beauty."
 
 "In such cases, a woman has not often much beauty to think of."
 
-"But, my dear, you must indeed go and see Mr. Bingley when he comes into the neighbourhood."
+"But, my dear, you must indeed go and see Mr. Bingley\index{Bingley, Mr. Charles} when he comes into the neighbourhood."
 
 "It is more than I engage for, I assure you."
 
-"But consider your daughters. Only think what an establishment it would be for one of them. Sir William and Lady Lucas are determined to go, merely on that account, for in general you know they visit no new comers. Indeed you must go, for it will be impossible for *us* to visit him, if you do not."
+"But consider your daughters. Only think what an establishment it would be for one of them. Sir William\index{Lucas, Sir William} and Lady Lucas\index{Lucas, Lady} are determined to go, merely on that account, for in general you know they visit no new comers. Indeed you must go, for it will be impossible for *us* to visit him, if you do not."
 
-"You are over scrupulous surely. I dare say Mr. Bingley will be very glad to see you; and I will send a few lines by you to assure him of my hearty consent to his marrying which ever he chuses of the girls; though I must throw in a good word for my little Lizzy."
+"You are over scrupulous surely. I dare say Mr. Bingley\index{Bingley, Mr. Charles} will be very glad to see you; and I will send a few lines by you to assure him of my hearty consent to his marrying which ever he chuses of the girls; though I must throw in a good word for my little Lizzy\index{Bennet, Elizabeth}."
 
-"I desire you will do no such thing. Lizzy is not a bit better than the others; and I am sure she is not half so handsome as Jane, nor half so good humoured as Lydia. But you are always giving *her* the preference."
+"I desire you will do no such thing. Lizzy\index{Bennet, Elizabeth} is not a bit better than the others; and I am sure she is not half so handsome as Jane\index{Bennet, Jane}, nor half so good humoured as Lydia\index{Bennet, Lydia}. But you are always giving *her* the preference."
 
-"They have none of them much to recommend them," replied he; "they are all silly and ignorant like other girls; but Lizzy has something more of quickness than her sisters."
+"They have none of them much to recommend them," replied he; "they are all silly and ignorant like other girls; but Lizzy\index{Bennet, Elizabeth} has something more of quickness than her sisters."
 
-"Mr. Bennet, how can you abuse your own children in such a way? You take delight in vexing me. You have no compassion on my poor nerves."
+"Mr. Bennet\index{Bennet, Mr.}, how can you abuse your own children in such a way? You take delight in vexing me. You have no compassion on my poor nerves."
 
 "You mistake me, my dear. I have a high respect for your nerves. They are my old friends. I have heard you mention them with consideration these twenty years at least."
 
@@ -4244,3 +4247,6 @@ Pemberley was now Georgiana's home; and the attachment of the sisters was exactl
 Lady Catherine was extremely indignant on the marriage of her nephew; and as she gave way to all the genuine frankness of her character, in her reply to the letter which announced its arrangement, she sent him language so very abusive, especially of Elizabeth, that for some time all intercourse was at an end. But at length, by Elizabeth's persuasion, he was prevailed on to overlook the offence, and seek a reconciliation; and, after a little farther resistance on the part of his aunt, her resentment gave way, either to her affection for him, or her curiosity to see how his wife conducted herself; and she condescended to wait on them at Pemberley, in spite of that pollution which its woods had received, not merely from the presence of such a mistress, but the visits of her uncle and aunt from the city.
 
 With the Gardiners, they were always on the most intimate terms. Darcy, as well as Elizabeth, really loved them; and they were both ever sensible of the warmest gratitude towards the persons who, by bringing her into Derbyshire, had been the means of uniting them.
+
+\printindex
+

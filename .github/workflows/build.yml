@@ -28,6 +28,8 @@ jobs:
           texlive-fonts-recommended \
           texlive-fonts-extra \
           texlive-lang-all \
+          texlive-extra-utils \
+          xindy \
           librsvg2-bin \
           make
 

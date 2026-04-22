@@ -35,6 +35,7 @@ $(BOOKNAME).html: $(BOOKNAME).md style.css
 	--css="style.css" \
 	--table-of-contents \
 	--section-divs \
+	--lua-filter=index.lua \
 	--standalone
 
 ## epub  : Generate an EPUB file.
@@ -50,6 +51,7 @@ $(BOOKNAME).epub: $(BOOKNAME).md images/cover.jpg style-epub.css
 	-o $(BOOKNAME).epub \
 	--epub-cover-image="images/cover.jpg" \
 	--css="style-epub.css" \
+	--lua-filter=index.lua \
 	--standalone
 
 ## pdf   : Generate a PDF file.
@@ -68,8 +70,10 @@ $(BOOKNAME).pdf: $(BOOKNAME).md
 	-V fontfamily="libertine" \
 	-V fontfamilyoptions="oldstyle,proportional" \
 	-V papersize=a5 \
+	-V makeindex \
 	--top-level-division=part \
 	--pdf-engine=lualatex \
+	--lua-filter=index.lua \
 	--table-of-contents
 
 ## docx  : Generate a Word file.
@@ -83,6 +87,7 @@ $(BOOKNAME).docx: $(BOOKNAME).md style.docx
 	pandoc $(BOOKNAME).md \
 	-o $(BOOKNAME).docx \
 	--reference-doc=style.docx \
+	--lua-filter=index.lua \
 	--table-of-contents
 
 # Actions that do not correspond to files

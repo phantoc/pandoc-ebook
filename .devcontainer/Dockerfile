@@ -1,6 +1,6 @@
 # See here for image contents: https://github.com/microsoft/vscode-dev-containers/tree/v0.245.2/containers/debian/.devcontainer/base.Dockerfile
 
-FROM mcr.microsoft.com/vscode/devcontainers/base:debian-11
+FROM mcr.microsoft.com/devcontainers/base:ubuntu-24.04
 
 # Install Pandoc and TeX Live for PDF generation via LuaLaTeX
 RUN apt-get update && export DEBIAN_FRONTEND=noninteractive \

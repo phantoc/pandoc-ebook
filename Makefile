@@ -67,7 +67,6 @@ $(BOOKNAME).pdf: $(BOOKNAME).md
 	-V documentclass=scrbook \
 	-V indent \
 	-V subparagraph \
-	-V fontfamily="libertine" \
 	-V fontfamilyoptions="oldstyle,proportional" \
 	-V papersize=a5 \
 	-V makeindex \
